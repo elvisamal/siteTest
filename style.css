@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header {
+        padding: 0.5rem;
+    }
+    
+    section {
+        padding: 1rem;
+    }
+    
+    img {
+        width: 100px; /* Redimensionne l'image sur mobile */
+    }
+}
+
+img {
+    transition: transform 0.3s ease; /* Transition de zoom */
+}
+
+img:hover {
+    transform: scale(1.1); /* L’image va légèrement grandir quand on la survole */
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6347; /* Change la couleur au survol */
+}
+
+
+form {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
